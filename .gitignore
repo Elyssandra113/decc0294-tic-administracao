@@ -1,0 +1,19 @@
+# versoes antigas em PowerPoint, substituidas pelos decks em HTML
+*.pptx
+
+# arquivos temporarios do Office e do OneDrive
+~$*
+*.tmp
+.~lock.*
+
+# sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# saidas de aluno, quando a pasta for usada como projeto
+entregas/
+saidas/
+dados/restrito/
+modelo/
+__pycache__/
