@@ -20,24 +20,32 @@ Providencie também: os endereços de download escritos na turma virtual, um mon
 
 ## Material
 
-Deck `modulo2-ambiente-de-trabalho-digital.pptx`, este roteiro e o arquivo `atividade_modulo2.py`, publicado na turma virtual antes da aula.
+Deck `modulo2-ambiente-de-trabalho-digital.html`, este roteiro e o arquivo `atividade_modulo2.py`, publicado na turma virtual antes da aula.
+
+O deck foi refeito para uma turma sem contato anterior com o tema. Ele agora tem sete slides de conceito, marcados com a tarja CONCEITO, que definem cada termo antes do primeiro uso: infraestrutura de TI, nuvem, arquivo e caminho, texto puro, modelo de linguagem, agente, controle de versão e a diferença entre git, GitHub e repositório. Dois slides de vocabulário fecham o encontro, com os quinze termos e a definição de cada um.
+
+Os slides de conceito são para ler em voz alta e discutir, não para passar rápido. A frase grande no topo é a definição; os quatro pontos abaixo são o que a sustenta; a caixa dourada no pé é a analogia, que é o que a turma vai lembrar na semana seguinte. Peça um exemplo da turma em cada analogia antes de avançar.
 
 ## Distribuição do tempo
 
 | Bloco | Duração | Slides |
 |---|---|---|
-| Abertura e visão geral | 10 min | 1 a 2 |
-| Ciclo 2.1 | 45 min | 3 a 8 |
-| Ciclo 2.2 | 45 min | 9 a 15 |
+| Abertura, visão geral e combinado | 10 min | 1 a 3 |
+| Ciclo 2.1 | 45 min | 4 a 12 |
+| Ciclo 2.2 | 45 min | 13 a 21 |
 | Intervalo | 15 min | |
-| Ciclo 2.3 | 65 min | 16 a 23 |
+| Ciclo 2.3 | 65 min | 22 a 31 |
 | Intervalo | 10 min | |
-| Ciclo 2.4 | 65 min | 24 a 30 |
-| Fechamento | 15 min | 31 a 34 |
+| Ciclo 2.4 | 65 min | 32 a 40 |
+| Fechamento e vocabulário | 15 min | 41 a 46 |
+
+O slide 3 é o combinado de abertura: toda palavra técnica é definida antes de ser usada, ninguém precisa saber programar e a dúvida óbvia é a mais útil. Leia os quatro pontos em voz alta. Numa turma que nunca viu o tema, esse minuto reduz a quantidade de gente que fica calada com dúvida.
 
 ## Ciclo 2.1 — Infraestrutura de TI: o que roda onde
 
-Teoria, 20 min. Os três lugares. As quatro parcelas do custo total.
+Conceito, 12 min. O que é infraestrutura de TI, slide 5, com equipamento, programa, rede e dado. Depois a separação entre programa, arquivo e sistema, slide 6.
+
+Teoria, 15 min. Os três lugares onde um programa roda, slide 7. O slide 8 define computação em nuvem, e é o mais importante do ciclo: a turma chega achando que nuvem é uma abstração, e sai sabendo que é o galpão de uma empresa com contrato. Depois as quatro parcelas do custo total, slide 9.
 
 Demonstração, 5 min. A própria ferramenta da disciplina submetida à pergunta: o programa roda na máquina, o modelo roda na nuvem, a conta é gratuita com cota.
 
@@ -45,11 +53,13 @@ Prática, 15 min. Cada aluno escolhe um sistema que usa e responde às três per
 
 Entrega, 5 min. Ficha de infraestrutura, salva depois que a pasta existir.
 
-Este ciclo é o mais compressível do encontro. Se o teste de sanidade indicou instalação demorada, reduza a teoria para 12 minutos e a prática para 10.
+Este ciclo é o mais compressível do encontro. Se o teste de sanidade indicou instalação demorada, corte o slide 9, o do custo total, que é o único que não é pré-requisito de nada adiante. Os slides de conceito não se cortam: sem eles, o ciclo 2.3 não se sustenta.
 
 ## Ciclo 2.2 — A pasta do projeto
 
-Teoria, 20 min. Conversa, pasta e repositório. A estrutura padrão. Os formatos.
+Conceito, 10 min. Arquivo, pasta e caminho, slide 14. É o slide mais elementar do encontro e o mais decisivo: sem ele, nenhuma instrução ao agente funciona, porque o aluno não sabe citar um arquivo. Escreva um caminho no quadro, dados/vendas-2025.csv, e peça que alguém leia em voz alta o que ele significa.
+
+Teoria, 15 min. Conversa, pasta e repositório, slide 15. A estrutura padrão, slide 16. Texto puro e arquivo fechado, slide 17, que explica por que a disciplina trabalha em .md e .csv. Os formatos, slide 18.
 
 Demonstração, 8 min. O professor executa `atividade_modulo2.py criar` na projeção.
 
@@ -61,11 +71,15 @@ Ponto de atenção: nome de pasta com espaço e acento causa problema o semestre
 
 ## Ciclo 2.3 — opencode desktop: instalação e primeiro uso
 
-Teoria, 15 min. O que o agente faz sobre a pasta. Cota, limite e o que fazer quando acabar.
+Conceito, 12 min. O que é um modelo de linguagem, slide 23, na versão curta: ele prevê a continuação provável do texto e não consulta uma base de verdades. Depois, o que é um agente, slide 24, com a diferença entre ser o carregador de informação e ser o revisor.
 
-Demonstração e instalação assistida, 25 min. Os seis passos do slide 19, com toda a turma acompanhando na própria máquina. Monitor circulando. Ninguém avança sozinho.
+A analogia do estagiário, no slide 23, costuma resolver o conceito para a turma inteira. Não a substitua por uma explicação técnica.
 
-Demonstração da primeira instrução, 5 min. O pedido do slide 20, que lê um arquivo da pasta e grava outro.
+Teoria, 8 min. O que o opencode faz, slide 25. Cota, limite e o que fazer quando acabar, slide 26.
+
+Demonstração e instalação assistida, 22 min. Os seis passos do slide 27, com toda a turma acompanhando na própria máquina. Monitor circulando. Ninguém avança sozinho.
+
+Demonstração da primeira instrução, 5 min. O pedido do slide 28, que lê um arquivo da pasta e grava outro. Leia a instrução em voz alta apontando as três partes: o arquivo citado pelo caminho, o formato pedido e a proibição no fim.
 
 Prática, 15 min. Cada aluno preenche o AGENTS.md e testa com três pedidos.
 
@@ -75,9 +89,11 @@ Resultado esperado, se a cota do modelo falhar em parte da turma: os alunos afet
 
 ## Ciclo 2.4 — GitHub Desktop e a entrega A1
 
-Teoria, 15 min. Os três problemas que o versionamento resolve. Os quatro gestos. O que nunca vai para o repositório.
+Conceito, 10 min. O que é versionar, slide 33, começando pela pilha de relatorio-final-v3 que todo mundo tem. Depois o slide 34, git, GitHub e repositório, que é onde a turma se perde na primeira semana: um é o programa, outro é o site, o terceiro é a sua pasta com histórico.
 
-Demonstração e execução assistida, 30 min. Os seis passos do slide 27, com a turma acompanhando. Este é o trecho em que o encontro trava ou não trava.
+Teoria, 10 min. Os três problemas que o versionamento resolve, slide 35. Os quatro gestos, slide 36, com os nomes em inglês porque é assim que estão nos botões. O que nunca vai para o repositório, slide 38.
+
+Demonstração e execução assistida, 30 min. Os seis passos do slide 37, com a turma acompanhando. Este é o trecho em que o encontro trava ou não trava.
 
 Conferência, 15 min. Cada aluno roda `atividade_modulo2.py conferir` e corrige o que o script apontar. O script verifica nove itens e escreve `entregas/A1-relatorio.md`.
 
@@ -90,6 +106,12 @@ Ordem de resolução quando alguém trava: primeiro o que impede publicar, depoi
 Estrutura de pastas, README preenchido, AGENTS.md com as quatro seções, as quatro entregas do módulo 1 na pasta certa, ficha do ciclo 2.1, .gitignore presente, pasta sob controle de versão, ao menos duas versões gravadas e repositório publicado.
 
 O script lê o estado do repositório direto dos arquivos internos do git, sem depender de comando. Funciona mesmo sem git instalado no caminho do sistema.
+
+## O vocabulário do fim
+
+Os slides 42 e 43 trazem os quinze termos do encontro com uma linha de definição em cada. Não são para explicar de novo: são para o aluno fotografar e consultar durante o semestre. Reserve dois minutos, diga isso com essas palavras e siga.
+
+Se algum termo gerar dúvida ali, é sinal de que o slide de conceito correspondente passou rápido demais. Anote qual foi e ajuste o ritmo no próximo semestre.
 
 ## Problemas conhecidos
 
