@@ -18,13 +18,17 @@ Teste o roteiro na semana da aula, não no início do semestre: o provedor gratu
 | Bloco | Duração | Slides |
 |---|---|---|
 | Abertura e visão geral | 10 min | 1 a 2 |
-| Ciclo 3.1 | 50 min | 3 a 9 |
-| Ciclo 3.2 | 50 min | 10 a 15 |
+| Ciclo 3.1 | 50 min | 3 a 12 |
+| Ciclo 3.2 | 50 min | 13 a 20 |
 | Intervalo | 15 min | |
-| Ciclo 3.3 | 55 min | 16 a 22 |
+| Ciclo 3.3 | 55 min | 21 a 28 |
 | Intervalo | 10 min | |
-| Ciclo 3.4 | 45 min | 23 a 30 |
-| Fechamento | 15 min | 31 a 34 |
+| Ciclo 3.4 | 45 min | 29 a 36 |
+| Fechamento e vocabulário | 15 min | 37 a 42 |
+
+O deck foi refeito para uma turma sem contato anterior com o tema. Entraram cinco slides de conceito, com a tarja CONCEITO, que definem cada termo antes do primeiro uso: inteligência artificial, treinamento e data de corte, sessão e janela de contexto, alucinação, engenharia de prompt. Entrou também um slide sobre onde se confere cada tipo de afirmação, com o procedimento concreto para artigo, lei, número e sistema. Dois slides de vocabulário fecham o encontro.
+
+Nos slides de conceito, a frase grande no topo é a definição, os quatro pontos abaixo a sustentam e a caixa dourada no pé traz a analogia. Leia a analogia em voz alta e peça um exemplo da turma antes de avançar. São eles que seguram o resto do encontro numa turma que nunca ouviu falar do assunto.
 
 ## Ciclo 3.1 — O que é IA e o que é um modelo de linguagem
 
@@ -36,11 +40,15 @@ Prática, 12 min. Cada aluno repete com um conceito da própria área.
 
 Entrega, 5 min. `entregas/modulo3-ciclo1-variacao.md`.
 
+Os três slides de conceito do ciclo, 4, 6 e 9, sustentam tudo o que vem depois. O de treinamento explica por que ele não consegue abrir a fonte; o de sessão e janela de contexto explica por que a demonstração exige sessões separadas e por que ele esquece uma regra dada meia hora antes. Não passe rápido por eles para ganhar tempo: o tempo se perde depois, em dúvida repetida.
+
 Ponto de atenção: alguém vai concluir que a variação torna a ferramenta inútil. A resposta é que variação de redação não é o problema; variação de fato é. O exercício serve para separar as duas.
 
 ## Ciclo 3.2 — Alucinação e verificação
 
-Teoria, 18 min. Os quatro tipos de erro. Por que acontece e o que reduz.
+Conceito, 8 min. O que é alucinação, slide 14. Os quatro pontos importam nesta ordem: não é mentira, não vem com aviso, aparece onde você mais precisa e não some com a próxima versão. O último é o que muda o comportamento do aluno, porque tira a esperança de que conferir seja provisório.
+
+Teoria, 15 min. Os quatro tipos de erro, slide 15. Por que acontece e o que reduz, slide 16. Depois, onde se confere cada tipo de afirmação, slide 17, que é o slide mais operacional do encontro: título entre aspas no Google Acadêmico, DOI em doi.org, artigo no texto compilado do Planalto, número no órgão que o produz, procedimento no próprio sistema. Boa parte da turma nunca conferiu uma referência dessa forma.
 
 Demonstração, 7 min. A instrução com e sem a autorização do NÃO SEI, sobre a referência que o aluno trouxe. Vale rodar as duas versões na projeção: a diferença costuma ser visível.
 

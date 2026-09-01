@@ -67,6 +67,25 @@ html,body{height:100%;background:#2b2b2b;font-family:"Segoe UI",Calibri,"Helveti
 .prompt .rot{display:block;font-size:14px;font-weight:700;letter-spacing:1.2px;color:var(--vinho)}
 .prompt p{font-size:19px;line-height:1.45;font-style:italic;color:var(--txt);margin-top:8px}
 
+/* ---- conceito ---- */
+.conceito{display:flex;flex-direction:column;height:100%;gap:18px}
+.conceito .def{background:var(--card2);border:1px solid #e3e3e3;border-left:9px solid var(--vinho);
+  padding:16px 24px}
+.conceito .def .rot{display:block;font-size:14px;font-weight:700;letter-spacing:1.2px;
+  color:var(--vinho);text-transform:uppercase}
+.conceito .def p{font-size:23px;line-height:1.35;color:var(--txt);margin-top:8px}
+.conceito .pontos{display:grid;gap:16px 30px}
+.conceito .pontos.cols-2{grid-template-columns:repeat(2,1fr)}
+.conceito .pontos.cols-3{grid-template-columns:repeat(3,1fr)}
+.conceito .pt .rule{display:block;height:3px;margin-bottom:8px}
+.conceito .pt .rot{display:block;font-size:15px;font-weight:700;color:var(--txt)}
+.conceito .pt p{font-size:17px;line-height:1.4;margin-top:3px}
+.conceito .analogia{margin-top:auto;background:var(--card);border-left:6px solid var(--dourado);
+  padding:12px 20px}
+.conceito .analogia .rot{display:block;font-size:13px;font-weight:700;letter-spacing:1.1px;
+  color:var(--muted)}
+.conceito .analogia p{font-size:18px;line-height:1.4;color:var(--txt);margin-top:4px}
+
 /* ---- marcadores ---- */
 .bullets{list-style:none}
 .bullets li{position:relative;padding-left:26px;font-size:20px;line-height:1.45;margin-bottom:16px}
@@ -213,7 +232,7 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Estrutura do módulo</span>
-      <span class="pag">2 / 33</span>
+      <span class="pag">2 / 40</span>
     </footer>
   </section>
 <section class="slide divisor" data-i="2">
@@ -224,9 +243,48 @@ body.mexeu #ajuda{opacity:1}
         <p class="etapas">Teoria · Demonstração · Prática · Entrega</p>
         <p class="tempo">~45 minutos</p>
       </div>
-      <span class="pag">3 / 33</span>
+      <span class="pag">3 / 40</span>
     </section>
 <section class="slide conteudo" data-i="3">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 4.1 · CONCEITO</span>
+    <h2>O que é um artefato</h2>
+    <p class="sub">A palavra aparece no título do encontro e organiza tudo que vem depois</p>
+    <div class="corpo"><div class="conceito">
+    <div class="def" style="border-left-color:#8D0333">
+      <span class="rot">ARTEFATO</span>
+      <p>É qualquer coisa que sobra do trabalho em forma de arquivo: um relatório, uma tabela, uma página, um roteiro. Tem nome, tem lugar na pasta e tem uma finalidade declarada. É o oposto de uma resposta que ficou na tela e se perdeu quando você fechou a janela.</p>
+    </div>
+    <div class="pontos cols-2">
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Por que a palavra existe</span>
+        <p>Ela separa o que se conversa do que se produz. Uma tarde inteira de conversa com o modelo pode terminar sem nenhum artefato, e é assim que o trabalho se perde.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">O que faz de um arquivo um artefato</span>
+        <p>Alguém consegue abrir sem você por perto e entender para que serve. Um arquivo chamado sem-titulo-2.docx na área de trabalho não é artefato, é entulho.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Ele entra no histórico</span>
+        <p>Como está na pasta do projeto, cada versão fica registrada. Você consegue mostrar como o documento chegou ao estado atual.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">É o que se avalia</span>
+        <p>Nesta disciplina, toda entrega é um artefato com nome padronizado. No trabalho, é o que você entrega à chefia, e não a conversa que o gerou.</p>
+      </div></div>
+    
+  </div></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 4.1 · Conceito</span>
+      <span class="pag">4 / 40</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="4">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.1 · TEORIA</span>
     <h2>Resposta na tela e arquivo na pasta</h2>
@@ -280,10 +338,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.1 · Teoria</span>
-      <span class="pag">4 / 33</span>
+      <span class="pag">5 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="4">
+<section class="slide conteudo" data-i="5">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.1 · TEORIA</span>
     <h2>Quatro artefatos que resolvem a maior parte do trabalho</h2>
@@ -304,10 +362,49 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.1 · Teoria</span>
-      <span class="pag">5 / 33</span>
+      <span class="pag">6 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="5">
+<section class="slide conteudo" data-i="6">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 4.1 · CONCEITO</span>
+    <h2>O que é HTML</h2>
+    <p class="sub">Você vai gerar um arquivo desses daqui a cinco minutos, sem escrever nenhuma linha dele</p>
+    <div class="corpo"><div class="conceito">
+    <div class="def" style="border-left-color:#0AB0AB">
+      <span class="rot">HTML</span>
+      <p>É a linguagem em que as páginas da internet são escritas. Um arquivo .html é um arquivo de texto com marcações que dizem ao navegador o que é título, o que é tabela e o que é parágrafo. O navegador lê essas marcações e desenha a página.</p>
+    </div>
+    <div class="pontos cols-2">
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">Não precisa de internet</span>
+        <p>Um arquivo .html no seu computador abre no navegador com dois cliques. Ele só depende da internet se buscar alguma coisa de fora, e os que você vai gerar aqui não buscam.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">Cabe tudo em um arquivo só</span>
+        <p>Texto, formatação e até imagem podem ficar dentro do mesmo arquivo. Você manda um anexo e a pessoa abre, sem instalar programa nenhum.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">Por que usar em vez de Word</span>
+        <p>Abre igual em qualquer computador, não exige licença e é texto por dentro, então o histórico de versões mostra o que mudou.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">Quem escreve o HTML é o agente</span>
+        <p>Você descreve o que quer, em português, e diz onde gravar. Nenhuma atividade da disciplina exige que você escreva HTML.</p>
+      </div></div>
+    <div class="analogia"><span class="rot">PARA FIXAR</span><p>A marcação é como a instrução de diagramação num original entregue à gráfica: isto é título, isto é tabela, isto é nota de rodapé. O navegador é a gráfica que imprime seguindo essas marcas.</p></div>
+  </div></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 4.1 · Conceito</span>
+      <span class="pag">7 / 40</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="7">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.1 · DEMONSTRAÇÃO</span>
     <h2>Um glossário da área, em HTML</h2>
@@ -330,10 +427,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.1 · Demonstração</span>
-      <span class="pag">6 / 33</span>
+      <span class="pag">8 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="6">
+<section class="slide conteudo" data-i="8">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.1 · PRÁTICA</span>
     <h2>Sua vez: o glossário da sua área</h2>
@@ -354,10 +451,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.1 · Prática</span>
-      <span class="pag">7 / 33</span>
+      <span class="pag">9 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="7">
+<section class="slide conteudo" data-i="9">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.1 · ENTREGA</span>
     <h2>Glossário da sua área</h2>
@@ -381,10 +478,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.1 · Entrega</span>
-      <span class="pag">8 / 33</span>
+      <span class="pag">10 / 40</span>
     </footer>
   </section>
-<section class="slide divisor" data-i="8">
+<section class="slide divisor" data-i="10">
       <span class="filete"></span>
       <div class="esq"><span class="rot">CICLO</span><span class="num">4.2</span></div>
       <div class="dir">
@@ -392,9 +489,9 @@ body.mexeu #ajuda{opacity:1}
         <p class="etapas">Teoria · Demonstração · Prática · Entrega</p>
         <p class="tempo">~45 minutos</p>
       </div>
-      <span class="pag">9 / 33</span>
+      <span class="pag">11 / 40</span>
     </section>
-<section class="slide conteudo" data-i="9">
+<section class="slide conteudo" data-i="11">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.2 · TEORIA</span>
     <h2>A instrução que não precisa ser repetida</h2>
@@ -448,10 +545,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.2 · Teoria</span>
-      <span class="pag">10 / 33</span>
+      <span class="pag">12 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="10">
+<section class="slide conteudo" data-i="12">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.2 · TEORIA</span>
     <h2>Como se escreve uma regra que funciona</h2>
@@ -472,10 +569,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.2 · Teoria</span>
-      <span class="pag">11 / 33</span>
+      <span class="pag">13 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="11">
+<section class="slide conteudo" data-i="13">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.2 · DEMONSTRAÇÃO</span>
     <h2>A bateria de três testes</h2>
@@ -496,10 +593,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.2 · Demonstração</span>
-      <span class="pag">12 / 33</span>
+      <span class="pag">14 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="12">
+<section class="slide conteudo" data-i="14">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.2 · PRÁTICA</span>
     <h2>Sua vez: AGENTS.md versão 2</h2>
@@ -520,10 +617,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.2 · Prática</span>
-      <span class="pag">13 / 33</span>
+      <span class="pag">15 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="13">
+<section class="slide conteudo" data-i="15">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.2 · ENTREGA</span>
     <h2>AGENTS.md versão 2, testado</h2>
@@ -547,10 +644,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.2 · Entrega</span>
-      <span class="pag">14 / 33</span>
+      <span class="pag">16 / 40</span>
     </footer>
   </section>
-<section class="slide divisor" data-i="14">
+<section class="slide divisor" data-i="16">
       <span class="filete"></span>
       <div class="esq"><span class="rot">CICLO</span><span class="num">4.3</span></div>
       <div class="dir">
@@ -558,9 +655,87 @@ body.mexeu #ajuda{opacity:1}
         <p class="etapas">Teoria · Demonstração · Prática · Entrega</p>
         <p class="tempo">~70 minutos</p>
       </div>
-      <span class="pag">15 / 33</span>
+      <span class="pag">17 / 40</span>
     </section>
-<section class="slide conteudo" data-i="15">
+<section class="slide conteudo" data-i="17">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 4.3 · CONCEITO</span>
+    <h2>O que é uma API</h2>
+    <p class="sub">É o conceito que sustenta este ciclo inteiro, e o que você mais vai ouvir em reunião com fornecedor</p>
+    <div class="corpo"><div class="conceito">
+    <div class="def" style="border-left-color:#8D0333">
+      <span class="rot">API</span>
+      <p>É a porta que um sistema abre para outros programas consultarem os dados dele, sem passar pela tela. Você chama um endereço, informa o que quer e recebe o dado já organizado, pronto para ser usado por um programa.</p>
+    </div>
+    <div class="pontos cols-2">
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">O endereço é uma URL</span>
+        <p>Parece o endereço de um site e devolve dado em vez de página. Em servicodados.ibge.gov.br/api/v1/localidades/estados/MA/municipios, o MA no meio é o parâmetro que diz qual estado você quer.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">A tela é para gente, a API é para programa</span>
+        <p>A mesma consulta que você faria clicando no site chega inteira numa única chamada, sem copiar da tela e sem erro de digitação.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Sem API, sobra improviso</span>
+        <p>Fornecedor que promete integrar um sistema sem API está prometendo ler a tela por fora, e isso quebra a cada atualização do sistema.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">A pergunta que você vai fazer</span>
+        <p>Antes de contratar qualquer integração: esse sistema tem API documentada, e o que ela permite consultar?</p>
+      </div></div>
+    <div class="analogia"><span class="rot">PARA FIXAR</span><p>É o balcão dos fundos de uma repartição. O público entra pela porta da frente, pega senha e é atendido na tela. Outro órgão, que precisa dos mesmos dados todo dia, usa o balcão dos fundos, com um formulário fixo e resposta padronizada.</p></div>
+  </div></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 4.3 · Conceito</span>
+      <span class="pag">18 / 40</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="18">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 4.3 · CONCEITO</span>
+    <h2>JSON: o formato em que o dado chega</h2>
+    <p class="sub">Você vai ver isso na tela hoje. Não é código, é uma lista organizada.</p>
+    <div class="corpo"><div class="conceito">
+    <div class="def" style="border-left-color:#FEC84D">
+      <span class="rot">JSON</span>
+      <p>É o formato de texto em que quase toda API devolve o dado. Cada informação vem como um par de nome e valor, entre chaves, e as listas vêm entre colchetes. Um programa lê isso sem ambiguidade, e uma pessoa também consegue ler com um pouco de paciência.</p>
+    </div>
+    <div class="pontos cols-2">
+      <div class="pt">
+        <span class="rule" style="background:#FEC84D"></span>
+        <span class="rot">Como se lê</span>
+        <p>Em {"nome": "São Luís", "id": 2111300}, o que está antes dos dois pontos é o nome do campo e o que vem depois é o valor. Uma lista de municípios é uma sequência desses blocos.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#FEC84D"></span>
+        <span class="rot">Por que não vem em planilha</span>
+        <p>JSON aceita informação aninhada, como um município que carrega dentro de si a microrregião e o estado. Planilha é plana e não representa isso bem.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#FEC84D"></span>
+        <span class="rot">O que você faz com ele</span>
+        <p>O script da atividade converte para CSV, que abre no Excel. O JSON original fica guardado em dados/, como prova de onde o número veio.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#FEC84D"></span>
+        <span class="rot">Não precisa decorar</span>
+        <p>Você precisa reconhecer o formato quando aparecer e saber que ele é conferível. Quem interpreta é o programa.</p>
+      </div></div>
+    
+  </div></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 4.3 · Conceito</span>
+      <span class="pag">19 / 40</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="19">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.3 · TEORIA</span>
     <h2>Três formas de estender o que o agente faz</h2>
@@ -614,10 +789,49 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.3 · Teoria</span>
-      <span class="pag">16 / 33</span>
+      <span class="pag">20 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="16">
+<section class="slide conteudo" data-i="20">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 4.3 · CONCEITO</span>
+    <h2>O que é um MCP</h2>
+    <p class="sub">A sigla é feia e a ideia é simples: dar ferramentas novas ao agente</p>
+    <div class="corpo"><div class="conceito">
+    <div class="def" style="border-left-color:#8D0333">
+      <span class="rot">MCP</span>
+      <p>É um padrão que permite acrescentar ferramentas ao agente. Um servidor MCP é um programinha que roda junto com o opencode e oferece a ele novas capacidades, como consultar uma base pública, ler uma agenda ou acessar um sistema da organização.</p>
+    </div>
+    <div class="pontos cols-2">
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">O que muda para você</span>
+        <p>Em vez de você abrir o site, procurar o dado e copiar, o agente consulta a fonte sozinho quando você pede em português. O dado vem da mesma fonte de sempre.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Ele roda na sua máquina</span>
+        <p>A instalação da demonstração baixa e executa o servidor no computador do laboratório. Ele não é um site, e você não cria conta nele.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">A sigla, para não ficar no ar</span>
+        <p>Model Context Protocol, protocolo de contexto de modelo. É uma convenção pública, e não o produto de uma empresa só.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">O que ele não muda</span>
+        <p>Se a rede do laboratório bloquear a fonte, o MCP também não alcança. Ele é o intermediário, e não uma via alternativa.</p>
+      </div></div>
+    <div class="analogia"><span class="rot">PARA FIXAR</span><p>Se o agente é um funcionário novo, o MCP é a autorização de acesso a mais um sistema. Ele não fica mais inteligente com isso, fica com mais coisas ao alcance.</p></div>
+  </div></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 4.3 · Conceito</span>
+      <span class="pag">21 / 40</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="21">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.3 · TEORIA</span>
     <h2>O que é uma API, e o que um MCP faz com ela</h2>
@@ -671,10 +885,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.3 · Teoria</span>
-      <span class="pag">17 / 33</span>
+      <span class="pag">22 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="17">
+<section class="slide conteudo" data-i="22">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.3 · DEMONSTRAÇÃO</span>
     <h2>Instalar um MCP de dados públicos brasileiros</h2>
@@ -699,10 +913,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.3 · Demonstração</span>
-      <span class="pag">18 / 33</span>
+      <span class="pag">23 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="18">
+<section class="slide conteudo" data-i="23">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.3 · TEORIA</span>
     <h2>Fontes públicas brasileiras que abrem sem cadastro</h2>
@@ -726,10 +940,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.3 · Teoria</span>
-      <span class="pag">19 / 33</span>
+      <span class="pag">24 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="19">
+<section class="slide conteudo" data-i="24">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.3 · DEMONSTRAÇÃO</span>
     <h2>O que está por baixo: a mesma consulta pela API</h2>
@@ -751,10 +965,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.3 · Demonstração</span>
-      <span class="pag">20 / 33</span>
+      <span class="pag">25 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="20">
+<section class="slide conteudo" data-i="25">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.3 · TEORIA</span>
     <h2>A pergunta que decide</h2>
@@ -776,10 +990,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.3 · Teoria</span>
-      <span class="pag">21 / 33</span>
+      <span class="pag">26 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="21">
+<section class="slide conteudo" data-i="26">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.3 · PRÁTICA</span>
     <h2>Sua vez: instale, consulte pelas duas vias e decida</h2>
@@ -800,10 +1014,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.3 · Prática</span>
-      <span class="pag">22 / 33</span>
+      <span class="pag">27 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="22">
+<section class="slide conteudo" data-i="27">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.3 · ENTREGA</span>
     <h2>Consulta pelas duas vias e ficha de decisão</h2>
@@ -827,10 +1041,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.3 · Entrega</span>
-      <span class="pag">23 / 33</span>
+      <span class="pag">28 / 40</span>
     </footer>
   </section>
-<section class="slide divisor" data-i="23">
+<section class="slide divisor" data-i="28">
       <span class="filete"></span>
       <div class="esq"><span class="rot">CICLO</span><span class="num">4.4</span></div>
       <div class="dir">
@@ -838,9 +1052,9 @@ body.mexeu #ajuda{opacity:1}
         <p class="etapas">Teoria · Demonstração · Prática · Entrega</p>
         <p class="tempo">~40 minutos</p>
       </div>
-      <span class="pag">24 / 33</span>
+      <span class="pag">29 / 40</span>
     </section>
-<section class="slide conteudo" data-i="24">
+<section class="slide conteudo" data-i="29">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.4 · TEORIA</span>
     <h2>Por que quebrar em etapas</h2>
@@ -894,10 +1108,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.4 · Teoria</span>
-      <span class="pag">25 / 33</span>
+      <span class="pag">30 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="25">
+<section class="slide conteudo" data-i="30">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.4 · TEORIA</span>
     <h2>Como se desenha uma cadeia</h2>
@@ -918,10 +1132,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.4 · Teoria</span>
-      <span class="pag">26 / 33</span>
+      <span class="pag">31 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="26">
+<section class="slide conteudo" data-i="31">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.4 · DEMONSTRAÇÃO</span>
     <h2>Uma cadeia de três etapas sobre um documento</h2>
@@ -933,10 +1147,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.4 · Demonstração</span>
-      <span class="pag">27 / 33</span>
+      <span class="pag">32 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="27">
+<section class="slide conteudo" data-i="32">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.4 · PRÁTICA</span>
     <h2>Sua vez: a cadeia no seu documento</h2>
@@ -957,10 +1171,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.4 · Prática</span>
-      <span class="pag">28 / 33</span>
+      <span class="pag">33 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="28">
+<section class="slide conteudo" data-i="33">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 4.4 · ENTREGA</span>
     <h2>Cadeia de três etapas documentada</h2>
@@ -984,10 +1198,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 4.4 · Entrega</span>
-      <span class="pag">29 / 33</span>
+      <span class="pag">34 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="29">
+<section class="slide conteudo" data-i="34">
     <span class="barra"></span>
     <span class="eyebrow">BALANÇO</span>
     <h2>O que você tem ao fim do encontro</h2>
@@ -1041,10 +1255,82 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Balanço do módulo</span>
-      <span class="pag">30 / 33</span>
+      <span class="pag">35 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="30">
+<section class="slide conteudo" data-i="35">
+    <span class="barra"></span>
+    <span class="eyebrow">VOCABULÁRIO · 1 DE 2</span>
+    <h2>As palavras deste encontro</h2>
+    <p class="sub">Artefato, formato e configuração</p>
+    <div class="corpo"><ol class="steps cols-2" style="--linhas:4">
+    <li><span class="num">1</span>
+      <div><strong>Artefato</strong><p>O que sobra do trabalho em forma de arquivo, com nome, lugar e finalidade.</p></div>
+    </li>
+    <li><span class="num">2</span>
+      <div><strong>Markdown</strong><p>Texto com marcação simples, extensão .md. O formato das entregas escritas.</p></div>
+    </li>
+    <li><span class="num">3</span>
+      <div><strong>CSV</strong><p>Tabela em texto puro, uma linha por registro, colunas separadas por um sinal.</p></div>
+    </li>
+    <li><span class="num">4</span>
+      <div><strong>HTML</strong><p>Linguagem das páginas. Um arquivo .html abre no navegador sem instalar nada.</p></div>
+    </li>
+    <li><span class="num">5</span>
+      <div><strong>AGENTS.md</strong><p>Arquivo na raiz da pasta com as regras que valem para todos os pedidos.</p></div>
+    </li>
+    <li><span class="num">6</span>
+      <div><strong>Regra testável</strong><p>Regra que pode ser violada, e por isso dá para verificar se foi cumprida.</p></div>
+    </li>
+    <li><span class="num">7</span>
+      <div><strong>Skill</strong><p>Procedimento escrito para uma tarefa que se repete com os mesmos passos.</p></div>
+    </li>
+    <li><span class="num">8</span>
+      <div><strong>Cadeia de tarefas</strong><p>Vários pedidos encadeados, cada um sobre o arquivo que o anterior gravou.</p></div>
+    </li></ol></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Vocabulário</span>
+      <span class="pag">36 / 40</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="36">
+    <span class="barra"></span>
+    <span class="eyebrow">VOCABULÁRIO · 2 DE 2</span>
+    <h2>As palavras deste encontro</h2>
+    <p class="sub">Dados externos e extensão do agente</p>
+    <div class="corpo"><ol class="steps cols-2" style="--linhas:4">
+    <li><span class="num">1</span>
+      <div><strong>API</strong><p>A porta que um sistema abre para outros programas consultarem os dados dele.</p></div>
+    </li>
+    <li><span class="num">2</span>
+      <div><strong>URL</strong><p>O endereço chamado na consulta. É a resposta a "de onde veio esse dado?".</p></div>
+    </li>
+    <li><span class="num">3</span>
+      <div><strong>Parâmetro</strong><p>O pedaço da URL que diz o que você quer: o estado, a data, o código da série.</p></div>
+    </li>
+    <li><span class="num">4</span>
+      <div><strong>JSON</strong><p>Formato de texto em que a API devolve o dado, em pares de nome e valor.</p></div>
+    </li>
+    <li><span class="num">5</span>
+      <div><strong>MCP</strong><p>Padrão que acrescenta ferramentas ao agente, como consultar uma base pública.</p></div>
+    </li>
+    <li><span class="num">6</span>
+      <div><strong>Servidor MCP</strong><p>O programa que oferece essas ferramentas, rodando na sua máquina.</p></div>
+    </li>
+    <li><span class="num">7</span>
+      <div><strong>Subagente</strong><p>Uma etapa longa executada em sessão própria, que devolve só o resumo.</p></div>
+    </li>
+    <li><span class="num">8</span>
+      <div><strong>Ponto de conferência</strong><p>O lugar declarado da cadeia em que uma pessoa confere antes de seguir.</p></div>
+    </li></ol></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Vocabulário</span>
+      <span class="pag">37 / 40</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="37">
     <span class="barra"></span>
     <span class="eyebrow">PRÓXIMOS PASSOS</span>
     <h2>Módulo 5: o que preparar</h2>
@@ -1065,10 +1351,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Próximos passos</span>
-      <span class="pag">31 / 33</span>
+      <span class="pag">38 / 40</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="31">
+<section class="slide conteudo" data-i="38">
     <span class="barra"></span>
     <span class="eyebrow">DÚVIDAS FREQUENTES</span>
     <h2>Perguntas que aparecem neste módulo</h2>
@@ -1095,10 +1381,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Dúvidas frequentes</span>
-      <span class="pag">32 / 33</span>
+      <span class="pag">39 / 40</span>
     </footer>
   </section>
-<section class="slide fim" data-i="32">
+<section class="slide fim" data-i="39">
       <span class="filete"></span>
       <h1>Módulo 4 concluído</h1>
       <p>A ferramenta agora produz arquivos, segue a sua configuração e trabalha em etapas conferíveis. No próximo encontro, o assunto passa a ser o dado que alimenta tudo isso.</p>
@@ -1107,7 +1393,7 @@ body.mexeu #ajuda{opacity:1}
 </div>
 <div id="barra">
   <button id="ant" title="Anterior">&#8249;</button>
-  <input id="atual" value="1" title="Ir para o slide"> <span>/ 33</span>
+  <input id="atual" value="1" title="Ir para o slide"> <span>/ 40</span>
   <button id="prox" title="Próximo">&#8250;</button>
   <button id="tela" title="Tela cheia">&#9744;</button>
 </div>

@@ -67,6 +67,25 @@ html,body{height:100%;background:#2b2b2b;font-family:"Segoe UI",Calibri,"Helveti
 .prompt .rot{display:block;font-size:14px;font-weight:700;letter-spacing:1.2px;color:var(--vinho)}
 .prompt p{font-size:19px;line-height:1.45;font-style:italic;color:var(--txt);margin-top:8px}
 
+/* ---- conceito ---- */
+.conceito{display:flex;flex-direction:column;height:100%;gap:18px}
+.conceito .def{background:var(--card2);border:1px solid #e3e3e3;border-left:9px solid var(--vinho);
+  padding:16px 24px}
+.conceito .def .rot{display:block;font-size:14px;font-weight:700;letter-spacing:1.2px;
+  color:var(--vinho);text-transform:uppercase}
+.conceito .def p{font-size:23px;line-height:1.35;color:var(--txt);margin-top:8px}
+.conceito .pontos{display:grid;gap:16px 30px}
+.conceito .pontos.cols-2{grid-template-columns:repeat(2,1fr)}
+.conceito .pontos.cols-3{grid-template-columns:repeat(3,1fr)}
+.conceito .pt .rule{display:block;height:3px;margin-bottom:8px}
+.conceito .pt .rot{display:block;font-size:15px;font-weight:700;color:var(--txt)}
+.conceito .pt p{font-size:17px;line-height:1.4;margin-top:3px}
+.conceito .analogia{margin-top:auto;background:var(--card);border-left:6px solid var(--dourado);
+  padding:12px 20px}
+.conceito .analogia .rot{display:block;font-size:13px;font-weight:700;letter-spacing:1.1px;
+  color:var(--muted)}
+.conceito .analogia p{font-size:18px;line-height:1.4;color:var(--txt);margin-top:4px}
+
 /* ---- marcadores ---- */
 .bullets{list-style:none}
 .bullets li{position:relative;padding-left:26px;font-size:20px;line-height:1.45;margin-bottom:16px}
@@ -213,7 +232,7 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Estrutura do módulo</span>
-      <span class="pag">2 / 34</span>
+      <span class="pag">2 / 42</span>
     </footer>
   </section>
 <section class="slide divisor" data-i="2">
@@ -224,9 +243,48 @@ body.mexeu #ajuda{opacity:1}
         <p class="etapas">Teoria · Demonstração · Prática · Entrega</p>
         <p class="tempo">~50 minutos</p>
       </div>
-      <span class="pag">3 / 34</span>
+      <span class="pag">3 / 42</span>
     </section>
 <section class="slide conteudo" data-i="3">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 3.1 · CONCEITO</span>
+    <h2>O que é inteligência artificial</h2>
+    <p class="sub">O termo tem setenta anos, e hoje é usado para vender coisas muito diferentes entre si</p>
+    <div class="corpo"><div class="conceito">
+    <div class="def" style="border-left-color:#8D0333">
+      <span class="rot">INTELIGÊNCIA ARTIFICIAL</span>
+      <p>É o campo que constrói sistemas capazes de executar tarefas que, feitas por uma pessoa, exigiriam algum tipo de julgamento: reconhecer, classificar, prever, recomendar, redigir. Não é uma tecnologia única, e sim um guarda-chuva sobre técnicas bem diferentes.</p>
+    </div>
+    <div class="pontos cols-2">
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Não é o robô do cinema</span>
+        <p>Nenhum sistema em uso hoje entende o que faz, tem intenção ou vontade. O que existe são programas muito bons em uma tarefa estreita de cada vez.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Não é sinônimo de ChatGPT</span>
+        <p>O modelo de linguagem é uma técnica entre várias, e é a mais recente delas. Sistemas de IA existem em uso comercial desde os anos 1980.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">O termo virou etiqueta comercial</span>
+        <p>Muito software vendido como IA é regra escrita à mão. Perguntar qual das três técnicas do próximo slide está por trás é o que separa a proposta séria da propaganda.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Por que isso importa para você</span>
+        <p>A escolha errada da técnica custa dinheiro e prazo. Problema com critério conhecido não precisa de aprendizado de máquina, e problema com dado ruim não se resolve com modelo melhor.</p>
+      </div></div>
+    
+  </div></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 3.1 · Conceito</span>
+      <span class="pag">4 / 42</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="4">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.1 · TEORIA</span>
     <h2>Três coisas diferentes chamadas de inteligência artificial</h2>
@@ -280,10 +338,49 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.1 · Teoria</span>
-      <span class="pag">4 / 34</span>
+      <span class="pag">5 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="4">
+<section class="slide conteudo" data-i="5">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 3.1 · CONCEITO</span>
+    <h2>Treinamento: como o modelo ficou do jeito que está</h2>
+    <p class="sub">Entender essa etapa explica quase tudo que ele acerta e quase tudo que ele erra</p>
+    <div class="corpo"><div class="conceito">
+    <div class="def" style="border-left-color:#0AB0AB">
+      <span class="rot">TREINAMENTO</span>
+      <p>Antes de você usá-lo, o modelo passou meses lendo uma quantidade enorme de texto e ajustando bilhões de números internos até acertar qual palavra vem depois. Esses números são tudo o que ele guardou. Os textos originais não ficaram lá dentro.</p>
+    </div>
+    <div class="pontos cols-2">
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">Ele não guardou os textos</span>
+        <p>O que sobrou foi o padrão da linguagem, e não os documentos. Por isso ele não consegue abrir uma fonte, conferir uma citação nem dizer de onde tirou uma frase.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">Existe uma data de corte</span>
+        <p>O treinamento terminou em algum mês. O que aconteceu depois disso ele não sabe, e costuma responder sobre o assunto assim mesmo, com a mesma segurança.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">O que era raro no texto ficou fraco</span>
+        <p>Assunto muito documentado sai bem. Autor brasileiro pouco citado, norma local, dado de uma prefeitura: é onde ele mais inventa.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">Depois vem o ajuste de comportamento</span>
+        <p>Uma segunda etapa treina o modelo a responder de forma útil e educada. É por isso que ele soa prestativo mesmo quando está errado.</p>
+      </div></div>
+    <div class="analogia"><span class="rot">PARA FIXAR</span><p>É como alguém que leu uma biblioteca inteira e devolveu todos os livros. Ficou com o repertório e o jeito de escrever, e não tem como voltar à página para conferir a citação.</p></div>
+  </div></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 3.1 · Conceito</span>
+      <span class="pag">6 / 42</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="6">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.1 · TEORIA</span>
     <h2>O que um modelo de linguagem realmente faz</h2>
@@ -337,15 +434,15 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.1 · Teoria</span>
-      <span class="pag">5 / 34</span>
+      <span class="pag">7 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="5">
+<section class="slide conteudo" data-i="7">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.1 · TEORIA</span>
     <h2>O que isso explica no uso diário</h2>
     <p class="sub">Quatro comportamentos que deixam de ser surpresa</p>
-    <div class="corpo"><ol class="steps cols-1">
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:4">
     <li><span class="num">1</span>
       <div><strong>A mesma pergunta dá respostas diferentes</strong><p>A escolha do próximo trecho envolve sorteio controlado. Duas execuções não são idênticas, e isso é do desenho, não defeito.</p></div>
     </li>
@@ -361,10 +458,49 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.1 · Teoria</span>
-      <span class="pag">6 / 34</span>
+      <span class="pag">8 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="6">
+<section class="slide conteudo" data-i="8">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 3.1 · CONCEITO</span>
+    <h2>Sessão, contexto e janela de contexto</h2>
+    <p class="sub">Três palavras que explicam por que às vezes ele esquece o que você acabou de dizer</p>
+    <div class="corpo"><div class="conceito">
+    <div class="def" style="border-left-color:#FEC84D">
+      <span class="rot">CONTEXTO</span>
+      <p>A cada pedido, o modelo recebe de novo tudo o que está valendo naquela conversa: a sua instrução, o que já foi dito antes e os arquivos que ele leu. Esse conjunto é o contexto, e ele tem um tamanho máximo, chamado janela de contexto.</p>
+    </div>
+    <div class="pontos cols-2">
+      <div class="pt">
+        <span class="rule" style="background:#FEC84D"></span>
+        <span class="rot">Sessão é uma conversa</span>
+        <p>Começa quando você abre e termina quando você fecha ou inicia outra. Sessão nova não sabe nada da anterior, e é por isso que o AGENTS.md existe.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#FEC84D"></span>
+        <span class="rot">Quando a janela enche, o começo cai</span>
+        <p>Numa conversa longa, o que foi dito no início sai do contexto. O sintoma é o modelo esquecer uma regra que você deu meia hora antes.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#FEC84D"></span>
+        <span class="rot">Documento longo ocupa a janela inteira</span>
+        <p>Por isso, no módulo 11, o trabalho com documento grande é feito por seção, e não pelo arquivo todo de uma vez.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#FEC84D"></span>
+        <span class="rot">O que fazer na prática</span>
+        <p>Conversa longa e embolada, comece outra. Regra importante, escreva no AGENTS.md em vez de repetir no chat. Trabalho sério, grave em arquivo.</p>
+      </div></div>
+    <div class="analogia"><span class="rot">PARA FIXAR</span><p>É a mesa de trabalho de alguém que só enxerga o que está em cima dela. Cabe bastante coisa, e quando você põe mais um documento, alguma outra folha cai no chão.</p></div>
+  </div></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 3.1 · Conceito</span>
+      <span class="pag">9 / 42</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="9">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.1 · DEMONSTRAÇÃO</span>
     <h2>A mesma pergunta, duas vezes</h2>
@@ -373,7 +509,7 @@ body.mexeu #ajuda{opacity:1}
     <span class="rot">INSTRUÇÃO DADA AO AGENTE, DUAS VEZES SEGUIDAS, EM SESSÕES SEPARADAS</span>
     <p>"Explique em cinco linhas o que é controle gerencial numa organização pública e cite um autor de referência sobre o tema. Grave a resposta em saidas/teste-variacao-1.md." (na segunda vez, grave em saidas/teste-variacao-2.md)</p>
   </div>
-<ol class="steps cols-3">
+<ol class="steps cols-3" style="--linhas:1">
     <li><span class="num">1</span>
       <div><strong>Compare os dois arquivos</strong><p>O que permaneceu igual e o que mudou entre as duas execuções?</p></div>
     </li>
@@ -386,15 +522,15 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.1 · Demonstração</span>
-      <span class="pag">7 / 34</span>
+      <span class="pag">10 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="7">
+<section class="slide conteudo" data-i="10">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.1 · PRÁTICA</span>
     <h2>Sua vez: teste a variação num tema seu</h2>
     <p class="sub">20 minutos, individual</p>
-    <div class="corpo"><ol class="steps cols-1">
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:4">
     <li><span class="num">1</span>
       <div><strong>Escolha um conceito da sua área</strong><p>Um que você domine o bastante para julgar a resposta. Não escolha algo que você desconhece.</p></div>
     </li>
@@ -410,10 +546,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.1 · Prática</span>
-      <span class="pag">8 / 34</span>
+      <span class="pag">11 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="8">
+<section class="slide conteudo" data-i="11">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.1 · ENTREGA</span>
     <h2>Comparação de duas respostas</h2>
@@ -437,10 +573,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.1 · Entrega</span>
-      <span class="pag">9 / 34</span>
+      <span class="pag">12 / 42</span>
     </footer>
   </section>
-<section class="slide divisor" data-i="9">
+<section class="slide divisor" data-i="12">
       <span class="filete"></span>
       <div class="esq"><span class="rot">CICLO</span><span class="num">3.2</span></div>
       <div class="dir">
@@ -448,14 +584,53 @@ body.mexeu #ajuda{opacity:1}
         <p class="etapas">Teoria · Demonstração · Prática · Entrega</p>
         <p class="tempo">~50 minutos</p>
       </div>
-      <span class="pag">10 / 34</span>
+      <span class="pag">13 / 42</span>
     </section>
-<section class="slide conteudo" data-i="10">
+<section class="slide conteudo" data-i="13">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 3.2 · CONCEITO</span>
+    <h2>O que é alucinação</h2>
+    <p class="sub">O nome é ruim e já ficou. O fenômeno é preciso e você vai encontrá-lo hoje.</p>
+    <div class="corpo"><div class="conceito">
+    <div class="def" style="border-left-color:#8D0333">
+      <span class="rot">ALUCINAÇÃO</span>
+      <p>É quando o modelo produz uma informação falsa com a mesma forma, o mesmo tom e a mesma segurança de uma informação correta. Não é um erro de digitação nem uma resposta confusa: é uma afirmação bem construída sobre algo que não existe.</p>
+    </div>
+    <div class="pontos cols-2">
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Não é mentira</span>
+        <p>Mentir exige saber a verdade e escolher outra. O modelo não tem essa distinção interna. Ele completa a lacuna com o que seria plausível ali.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Não vem com aviso</span>
+        <p>A parte inventada da resposta é redigida exatamente como a parte correta. Não existe mudança de tom que sirva de alerta.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Aparece mais onde você mais precisa</span>
+        <p>Referência bibliográfica, número, artigo de lei, procedimento de sistema e dado local. São justamente os itens que sustentam decisão e trabalho acadêmico.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#8D0333"></span>
+        <span class="rot">Não some com a próxima versão</span>
+        <p>Modelos melhores alucinam menos, e continuam alucinando. Conferir não é uma etapa provisória até a tecnologia melhorar: é parte do método.</p>
+      </div></div>
+    <div class="analogia"><span class="rot">PARA FIXAR</span><p>É o colega que responde a tudo com convicção e nunca diz que não sabe. Ele é útil, e você aprende a conferir o que ele afirma antes de repassar adiante.</p></div>
+  </div></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 3.2 · Conceito</span>
+      <span class="pag">14 / 42</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="14">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.2 · TEORIA</span>
     <h2>Quatro tipos de erro que você vai encontrar</h2>
     <p class="sub">Cada um exige um tipo diferente de conferência</p>
-    <div class="corpo"><ol class="steps cols-1">
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:4">
     <li><span class="num">1</span>
       <div><strong>Referência inventada</strong><p>Autores plausíveis, revista real, volume e páginas verossímeis, e o artigo não existe. É o erro mais comum em trabalho acadêmico e o mais fácil de detectar: procure o título exato.</p></div>
     </li>
@@ -471,10 +646,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.2 · Teoria</span>
-      <span class="pag">11 / 34</span>
+      <span class="pag">15 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="11">
+<section class="slide conteudo" data-i="15">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.2 · TEORIA</span>
     <h2>Por que acontece e o que reduz</h2>
@@ -528,10 +703,37 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.2 · Teoria</span>
-      <span class="pag">12 / 34</span>
+      <span class="pag">16 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="12">
+<section class="slide conteudo" data-i="16">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 3.2 · TEORIA</span>
+    <h2>Onde se confere cada tipo de afirmação</h2>
+    <p class="sub">Conferir não é reler a resposta com atenção. É abrir outra fonte.</p>
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:5">
+    <li><span class="num">1</span>
+      <div><strong>Artigo acadêmico</strong><p>Procure o título exato entre aspas no Google Acadêmico. Se não aparecer nenhum resultado, o artigo não existe. O DOI, aquele código que começa com 10., pode ser colado em doi.org e leva ao artigo real.</p></div>
+    </li>
+    <li><span class="num">2</span>
+      <div><strong>Artigo de lei</strong><p>Portal do Planalto, no texto compilado da lei, que é a versão com as alterações já aplicadas. Confira o número do artigo e leia o que ele diz, porque o número certo com conteúdo trocado é comum.</p></div>
+    </li>
+    <li><span class="num">3</span>
+      <div><strong>Número e estatística</strong><p>Vá ao órgão que produz o dado: IBGE, Banco Central, Tesouro, o portal da própria organização. Número sem fonte declarada não entra em trabalho avaliado.</p></div>
+    </li>
+    <li><span class="num">4</span>
+      <div><strong>Procedimento de sistema</strong><p>Abra o sistema e tente executar. É o único teste que vale, e é o mais rápido dos quatro.</p></div>
+    </li>
+    <li><span class="num">5</span>
+      <div><strong>Sempre registre onde conferiu</strong><p>A entrega da disciplina não pede só o veredito, e sim a fonte consultada. "Pesquisei" não é resposta aceita pelo script.</p></div>
+    </li></ol></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 3.2 · Teoria</span>
+      <span class="pag">17 / 42</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="17">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.2 · DEMONSTRAÇÃO</span>
     <h2>Diário de alucinação: como se registra um caso</h2>
@@ -540,7 +742,7 @@ body.mexeu #ajuda{opacity:1}
     <span class="rot">INSTRUÇÃO DADA AO AGENTE</span>
     <p>"Cite três artigos acadêmicos brasileiros publicados nos últimos dez anos sobre [seu tema], com autores, título, revista, volume, ano e DOI. Se você não tiver certeza de que um artigo existe, escreva NÃO SEI no lugar dele em vez de estimar."</p>
   </div>
-<ol class="steps cols-3">
+<ol class="steps cols-3" style="--linhas:1">
     <li><span class="num">1</span>
       <div><strong>Procure o título exato</strong><p>No Google Acadêmico, entre aspas. Não aparece? Não existe.</p></div>
     </li>
@@ -554,15 +756,15 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.2 · Demonstração</span>
-      <span class="pag">13 / 34</span>
+      <span class="pag">18 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="13">
+<section class="slide conteudo" data-i="18">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.2 · PRÁTICA</span>
     <h2>Sua vez: cinco casos no diário</h2>
     <p class="sub">25 minutos, individual, com o script da atividade</p>
-    <div class="corpo"><ol class="steps cols-1">
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:4">
     <li><span class="num">1</span>
       <div><strong>Peça ao agente para executar o script</strong><p>Diga: "execute atividade_modulo3.py com o comando iniciar". Ele cria o diário em entregas/.</p></div>
     </li>
@@ -578,10 +780,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.2 · Prática</span>
-      <span class="pag">14 / 34</span>
+      <span class="pag">19 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="14">
+<section class="slide conteudo" data-i="19">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.2 · ENTREGA</span>
     <h2>Diário de alucinação</h2>
@@ -605,10 +807,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.2 · Entrega</span>
-      <span class="pag">15 / 34</span>
+      <span class="pag">20 / 42</span>
     </footer>
   </section>
-<section class="slide divisor" data-i="15">
+<section class="slide divisor" data-i="20">
       <span class="filete"></span>
       <div class="esq"><span class="rot">CICLO</span><span class="num">3.3</span></div>
       <div class="dir">
@@ -616,9 +818,48 @@ body.mexeu #ajuda{opacity:1}
         <p class="etapas">Teoria · Demonstração · Prática · Entrega</p>
         <p class="tempo">~55 minutos</p>
       </div>
-      <span class="pag">16 / 34</span>
+      <span class="pag">21 / 42</span>
     </section>
-<section class="slide conteudo" data-i="16">
+<section class="slide conteudo" data-i="21">
+    <span class="barra"></span>
+    <span class="eyebrow">CICLO 3.3 · CONCEITO</span>
+    <h2>O que é engenharia de prompt</h2>
+    <p class="sub">O nome é pomposo e a prática é simples: escrever direito o que se quer</p>
+    <div class="corpo"><div class="conceito">
+    <div class="def" style="border-left-color:#0AB0AB">
+      <span class="rot">ENGENHARIA DE PROMPT</span>
+      <p>É a prática de escrever a instrução de modo que a resposta venha utilizável já na primeira tentativa, em vez de servir apenas como rascunho a ser refeito. Prompt é a instrução; a engenharia é escrever nela tudo que o modelo não tem como adivinhar.</p>
+    </div>
+    <div class="pontos cols-2">
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">Não são palavras mágicas</span>
+        <p>Não existe fórmula secreta que destrave o modelo. O que muda o resultado é informação: quem responde, para quem, sobre o quê e em que formato.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">O modelo não sabe nada sobre você</span>
+        <p>A sua organização, os seus números, o prazo do seu edital e o padrão do seu setor não estão nele. O que você não escrever, ele preenche com o caso médio.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">Instrução vaga tem resposta genérica garantida</span>
+        <p>Diante de pouca informação, a continuação mais provável é a mais comum. O texto genérico não é preguiça do modelo: é consequência do pedido.</p>
+      </div>
+      <div class="pt">
+        <span class="rule" style="background:#0AB0AB"></span>
+        <span class="rot">É a habilidade que sobrevive à troca de ferramenta</span>
+        <p>Modelos mudam de nome e de dono todo ano. Saber descrever uma tarefa com precisão continua valendo em todos eles, e também com pessoas.</p>
+      </div></div>
+    
+  </div></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Ciclo 3.3 · Conceito</span>
+      <span class="pag">22 / 42</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="22">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.3 · TEORIA</span>
     <h2>Papel, contexto, instrução e formato</h2>
@@ -687,10 +928,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.3 · Teoria</span>
-      <span class="pag">17 / 34</span>
+      <span class="pag">23 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="17">
+<section class="slide conteudo" data-i="23">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.3 · TEORIA</span>
     <h2>O mesmo pedido, duas versões</h2>
@@ -729,15 +970,15 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.3 · Teoria</span>
-      <span class="pag">18 / 34</span>
+      <span class="pag">24 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="18">
+<section class="slide conteudo" data-i="24">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.3 · TEORIA</span>
     <h2>Quatro erros que estragam um prompt bom</h2>
     <p class="sub">Aparecem mesmo em quem já entendeu os quatro elementos</p>
-    <div class="corpo"><ol class="steps cols-1">
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:4">
     <li><span class="num">1</span>
       <div><strong>Pedir três coisas de uma vez</strong><p>Analise, compare e recomende, tudo na mesma instrução. O modelo faz a primeira bem e as outras pela metade. Separe em pedidos encadeados.</p></div>
     </li>
@@ -753,10 +994,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.3 · Teoria</span>
-      <span class="pag">19 / 34</span>
+      <span class="pag">25 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="19">
+<section class="slide conteudo" data-i="25">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.3 · DEMONSTRAÇÃO</span>
     <h2>Reescrever um prompt fraco em sala</h2>
@@ -765,7 +1006,7 @@ body.mexeu #ajuda{opacity:1}
     <span class="rot">ESTRUTURA QUE O PROFESSOR VAI PREENCHER COM A TURMA</span>
     <p>"Você é [papel]. [Contexto: organização, situação, restrição]. [Instrução: uma tarefa, com verbo]. Formato: [estrutura, extensão]. Grave o resultado em saidas/[nome].md. Se algum dado necessário não estiver nos arquivos desta pasta, pergunte antes de estimar."</p>
   </div>
-<ol class="steps cols-3">
+<ol class="steps cols-3" style="--linhas:1">
     <li><span class="num">1</span>
       <div><strong>Rode a versão fraca primeiro</strong><p>Guarde a resposta. Ela é o termo de comparação.</p></div>
     </li>
@@ -778,15 +1019,15 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.3 · Demonstração</span>
-      <span class="pag">20 / 34</span>
+      <span class="pag">26 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="20">
+<section class="slide conteudo" data-i="26">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.3 · PRÁTICA</span>
     <h2>Sua vez: um par de prompts</h2>
     <p class="sub">25 minutos, individual</p>
-    <div class="corpo"><ol class="steps cols-1">
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:4">
     <li><span class="num">1</span>
       <div><strong>Escolha uma tarefa real que você faria esta semana</strong><p>Um resumo, um parecer, uma comparação, um roteiro. Precisa ser algo que você usaria de verdade.</p></div>
     </li>
@@ -802,10 +1043,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.3 · Prática</span>
-      <span class="pag">21 / 34</span>
+      <span class="pag">27 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="21">
+<section class="slide conteudo" data-i="27">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.3 · ENTREGA</span>
     <h2>Par de prompts documentado</h2>
@@ -829,10 +1070,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.3 · Entrega</span>
-      <span class="pag">22 / 34</span>
+      <span class="pag">28 / 42</span>
     </footer>
   </section>
-<section class="slide divisor" data-i="22">
+<section class="slide divisor" data-i="28">
       <span class="filete"></span>
       <div class="esq"><span class="rot">CICLO</span><span class="num">3.4</span></div>
       <div class="dir">
@@ -840,9 +1081,9 @@ body.mexeu #ajuda{opacity:1}
         <p class="etapas">Teoria · Demonstração · Prática · Entrega</p>
         <p class="tempo">~45 minutos</p>
       </div>
-      <span class="pag">23 / 34</span>
+      <span class="pag">29 / 42</span>
     </section>
-<section class="slide conteudo" data-i="23">
+<section class="slide conteudo" data-i="29">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.4 · TEORIA</span>
     <h2>Três técnicas que mudam a resposta</h2>
@@ -896,10 +1137,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.4 · Teoria</span>
-      <span class="pag">24 / 34</span>
+      <span class="pag">30 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="24">
+<section class="slide conteudo" data-i="30">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.4 · TEORIA</span>
     <h2>Duas técnicas de conferência</h2>
@@ -938,15 +1179,15 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.4 · Teoria</span>
-      <span class="pag">25 / 34</span>
+      <span class="pag">31 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="25">
+<section class="slide conteudo" data-i="31">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.4 · TEORIA</span>
     <h2>Escolher a técnica pelo erro que ela evita</h2>
     <p class="sub">Cada técnica corrige um tipo de falha. Aplicar todas em tudo é desperdício de tempo e atenção.</p>
-    <div class="corpo"><ol class="steps cols-1">
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:4">
     <li><span class="num">1</span>
       <div><strong>A saída vem no formato errado</strong><p>Use exemplos. Duas ou três amostras resolvem o que meia página de descrição não resolve, porque a forma se mostra mais fácil do que se explica.</p></div>
     </li>
@@ -962,10 +1203,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.4 · Teoria</span>
-      <span class="pag">26 / 34</span>
+      <span class="pag">32 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="26">
+<section class="slide conteudo" data-i="32">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.4 · TEORIA</span>
     <h2>Trocar de técnica ou trocar de modelo?</h2>
@@ -1019,10 +1260,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.4 · Teoria</span>
-      <span class="pag">27 / 34</span>
+      <span class="pag">33 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="27">
+<section class="slide conteudo" data-i="33">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.4 · DEMONSTRAÇÃO</span>
     <h2>A mesma tarefa com e sem exemplos</h2>
@@ -1031,7 +1272,7 @@ body.mexeu #ajuda{opacity:1}
     <span class="rot">INSTRUÇÃO COM EXEMPLOS</span>
     <p>"Classifique cada demanda em: reclamação, solicitação, denúncia ou elogio. Exemplos já classificados: (1) A obra está parada há dois meses → reclamação. (2) Solicito segunda via do carnê → solicitação. (3) O servidor cobrou para agilizar → denúncia. Agora classifique as vinte demandas do arquivo dados/ouvidoria.csv e grave em saidas/classificacao.csv."</p>
   </div>
-<ol class="steps cols-3">
+<ol class="steps cols-3" style="--linhas:1">
     <li><span class="num">1</span>
       <div><strong>Sem os três exemplos</strong><p>A classificação varia e a fronteira entre reclamação e solicitação fica instável.</p></div>
     </li>
@@ -1044,15 +1285,15 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.4 · Demonstração</span>
-      <span class="pag">28 / 34</span>
+      <span class="pag">34 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="28">
+<section class="slide conteudo" data-i="34">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.4 · PRÁTICA</span>
     <h2>Sua vez: três técnicas no caderno</h2>
     <p class="sub">25 minutos, individual</p>
-    <div class="corpo"><ol class="steps cols-1">
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:4">
     <li><span class="num">1</span>
       <div><strong>Escolha três das cinco técnicas</strong><p>Uma de produção e uma de conferência, no mínimo.</p></div>
     </li>
@@ -1068,10 +1309,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.4 · Prática</span>
-      <span class="pag">29 / 34</span>
+      <span class="pag">35 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="29">
+<section class="slide conteudo" data-i="35">
     <span class="barra"></span>
     <span class="eyebrow">CICLO 3.4 · ENTREGA</span>
     <h2>Três técnicas testadas</h2>
@@ -1095,10 +1336,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Ciclo 3.4 · Entrega</span>
-      <span class="pag">30 / 34</span>
+      <span class="pag">36 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="30">
+<section class="slide conteudo" data-i="36">
     <span class="barra"></span>
     <span class="eyebrow">BALANÇO</span>
     <h2>O que você produziu hoje</h2>
@@ -1152,15 +1393,87 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Balanço do módulo</span>
-      <span class="pag">31 / 34</span>
+      <span class="pag">37 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="31">
+<section class="slide conteudo" data-i="37">
+    <span class="barra"></span>
+    <span class="eyebrow">VOCABULÁRIO · 1 DE 2</span>
+    <h2>As palavras deste encontro</h2>
+    <p class="sub">O modelo e os seus erros. Guarde estes dois slides.</p>
+    <div class="corpo"><ol class="steps cols-2" style="--linhas:4">
+    <li><span class="num">1</span>
+      <div><strong>Inteligência artificial</strong><p>Guarda-chuva sobre técnicas que executam tarefas que exigiriam julgamento humano.</p></div>
+    </li>
+    <li><span class="num">2</span>
+      <div><strong>Regras</strong><p>Sistema em que o critério foi escrito por uma pessoa. Previsível e auditável.</p></div>
+    </li>
+    <li><span class="num">3</span>
+      <div><strong>Aprendizado de máquina</strong><p>Sistema que extrai o critério dos dados passados, em vez de recebê-lo pronto.</p></div>
+    </li>
+    <li><span class="num">4</span>
+      <div><strong>Modelo de linguagem</strong><p>Sistema que produz texto prevendo a continuação mais provável.</p></div>
+    </li>
+    <li><span class="num">5</span>
+      <div><strong>Treinamento</strong><p>A leitura de muito texto que ajustou os números internos do modelo, antes do seu uso.</p></div>
+    </li>
+    <li><span class="num">6</span>
+      <div><strong>Data de corte</strong><p>O mês em que o treinamento parou. Depois disso, ele não sabe e responde assim mesmo.</p></div>
+    </li>
+    <li><span class="num">7</span>
+      <div><strong>Sessão</strong><p>Uma conversa. A seguinte não sabe nada do que foi dito na anterior.</p></div>
+    </li>
+    <li><span class="num">8</span>
+      <div><strong>Contexto e janela de contexto</strong><p>Tudo o que está valendo no pedido, e o tamanho máximo disso.</p></div>
+    </li></ol></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Vocabulário</span>
+      <span class="pag">38 / 42</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="38">
+    <span class="barra"></span>
+    <span class="eyebrow">VOCABULÁRIO · 2 DE 2</span>
+    <h2>As palavras deste encontro</h2>
+    <p class="sub">Erro, conferência e instrução</p>
+    <div class="corpo"><ol class="steps cols-2" style="--linhas:4">
+    <li><span class="num">1</span>
+      <div><strong>Alucinação</strong><p>Informação falsa produzida com a forma e a segurança de uma informação correta.</p></div>
+    </li>
+    <li><span class="num">2</span>
+      <div><strong>Referência inventada</strong><p>Autores e revista plausíveis para um artigo que não existe.</p></div>
+    </li>
+    <li><span class="num">3</span>
+      <div><strong>Atribuição trocada</strong><p>Conceito real, atribuído ao autor, ano ou escola errados.</p></div>
+    </li>
+    <li><span class="num">4</span>
+      <div><strong>DOI</strong><p>Código de identificação de um artigo, começa com 10. e se confere em doi.org.</p></div>
+    </li>
+    <li><span class="num">5</span>
+      <div><strong>Prompt</strong><p>A instrução escrita para o modelo.</p></div>
+    </li>
+    <li><span class="num">6</span>
+      <div><strong>Engenharia de prompt</strong><p>Escrever a instrução com o que o modelo não tem como adivinhar.</p></div>
+    </li>
+    <li><span class="num">7</span>
+      <div><strong>Verificação em cadeia</strong><p>Pedir ao modelo a lista do que precisaria ser conferido na resposta dele.</p></div>
+    </li>
+    <li><span class="num">8</span>
+      <div><strong>Consistência</strong><p>Rodar a mesma instrução mais de uma vez e comparar o que se manteve.</p></div>
+    </li></ol></div>
+    <footer>
+      <span class="inst">UFMA · Curso de Administração · DECC0294</span>
+      <span class="centro">Vocabulário</span>
+      <span class="pag">39 / 42</span>
+    </footer>
+  </section>
+<section class="slide conteudo" data-i="39">
     <span class="barra"></span>
     <span class="eyebrow">PRÓXIMOS PASSOS</span>
     <h2>Módulo 4: o que preparar</h2>
     <p class="sub">Do prompt ao artefato: arquivos, agentes e configuração</p>
-    <div class="corpo"><ol class="steps cols-1">
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:4">
     <li><span class="num">1</span>
       <div><strong>Grave e publique o trabalho de hoje</strong><p>Antes de sair da sala. Mensagem: "entregas do modulo 3".</p></div>
     </li>
@@ -1176,15 +1489,15 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Próximos passos</span>
-      <span class="pag">32 / 34</span>
+      <span class="pag">40 / 42</span>
     </footer>
   </section>
-<section class="slide conteudo" data-i="32">
+<section class="slide conteudo" data-i="40">
     <span class="barra"></span>
     <span class="eyebrow">DÚVIDAS FREQUENTES</span>
     <h2>Perguntas que aparecem neste módulo</h2>
     
-    <div class="corpo"><ol class="steps cols-1">
+    <div class="corpo"><ol class="steps cols-1" style="--linhas:5">
     <li><span class="num">1</span>
       <div><strong>"Se ele inventa, por que usar?"</strong><p>Porque a alternativa é escrever tudo do zero. O ganho está no rascunho, e o custo é a conferência. A disciplina é sobre fazer essa conta.</p></div>
     </li>
@@ -1203,10 +1516,10 @@ body.mexeu #ajuda{opacity:1}
     <footer>
       <span class="inst">UFMA · Curso de Administração · DECC0294</span>
       <span class="centro">Dúvidas frequentes</span>
-      <span class="pag">33 / 34</span>
+      <span class="pag">41 / 42</span>
     </footer>
   </section>
-<section class="slide fim" data-i="33">
+<section class="slide fim" data-i="41">
       <span class="filete"></span>
       <h1>Módulo 3 concluído</h1>
       <p>Você sabe o que a ferramenta faz, conhece os erros que ela comete e tem um método para pedir. No próximo encontro, ela passa a produzir arquivos.</p>
@@ -1215,7 +1528,7 @@ body.mexeu #ajuda{opacity:1}
 </div>
 <div id="barra">
   <button id="ant" title="Anterior">&#8249;</button>
-  <input id="atual" value="1" title="Ir para o slide"> <span>/ 34</span>
+  <input id="atual" value="1" title="Ir para o slide"> <span>/ 42</span>
   <button id="prox" title="Próximo">&#8250;</button>
   <button id="tela" title="Tela cheia">&#9744;</button>
 </div>

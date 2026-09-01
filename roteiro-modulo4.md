@@ -15,7 +15,7 @@ Teste obrigatório numa máquina do laboratório, na semana da aula. O ciclo 4.3
 
 1. Instale o MCP colando o bloco de configuração e confirme que as quinze ferramentas aparecem. Isso exige Node instalado e acesso ao registro de pacotes.
 2. Rode `python atividade_modulo4.py apis testar` e anote quais das oito fontes a rede do CCET alcança.
-3. Anote o caminho exato do arquivo de configuração de MCP no opencode desktop, para dizer à turma no slide 18.
+3. Anote o caminho exato do arquivo de configuração de MCP no opencode desktop, para dizer à turma no slide 23.
 
 Se o laboratório bloquear a instalação do MCP ou os domínios das APIs, o ciclo continua funcionando: a atividade foi desenhada para que o diagnóstico de bloqueio seja parte da entrega. Mas você precisa saber disso antes da aula, não durante.
 
@@ -26,17 +26,25 @@ Confira antes da aula quais alunos ainda não têm o AGENTS.md preenchido do enc
 | Bloco | Duração | Slides |
 |---|---|---|
 | Abertura e visão geral | 10 min | 1 a 2 |
-| Ciclo 4.1 | 45 min | 3 a 8 |
-| Ciclo 4.2 | 45 min | 9 a 14 |
+| Ciclo 4.1 | 45 min | 3 a 10 |
+| Ciclo 4.2 | 45 min | 11 a 16 |
 | Intervalo | 15 min | |
-| Ciclo 4.3 | 70 min | 15 a 23 |
+| Ciclo 4.3 | 70 min | 17 a 28 |
 | Intervalo | 10 min | |
-| Ciclo 4.4 | 40 min | 24 a 29 |
-| Fechamento | 15 min | 30 a 33 |
+| Ciclo 4.4 | 40 min | 29 a 34 |
+| Fechamento e vocabulário | 15 min | 35 a 40 |
+
+O deck foi refeito para uma turma sem contato anterior com o tema. Entraram cinco slides de conceito, com a tarja CONCEITO, que definem cada termo antes do primeiro uso: artefato, HTML, API, JSON e MCP. Dois slides de vocabulário fecham o encontro.
+
+O ciclo 4.3 concentra quatro desses conceitos e é o mais pesado do encontro em vocabulário novo. A ordem é deliberada: primeiro a API, que é o que existe de fato; depois o JSON, que é o formato em que o dado chega; só então o MCP, que é o embrulho por cima. Quem inverte essa ordem ensina a sigla e não o conceito, e a turma sai achando que MCP é uma fonte de dados.
+
+A analogia do balcão dos fundos, no slide da API, resolve o conceito para a maior parte da turma. A do funcionário novo que ganha acesso a mais um sistema, no slide do MCP, evita a confusão entre dar ferramenta e ficar mais inteligente.
 
 ## Ciclo 4.1 — Gerar documentos na pasta do projeto
 
-Teoria, 15 min. Resposta na tela e arquivo na pasta. Os quatro artefatos e quando cada um serve.
+Conceito, 6 min. O que é um artefato, slide 4. A frase que resume o ciclo está ali: uma tarde de conversa com o modelo pode terminar sem nenhum artefato, e é assim que o trabalho se perde.
+
+Teoria, 12 min. Resposta na tela e arquivo na pasta, slide 5. Os quatro artefatos e quando cada um serve, slide 6. O que é HTML, slide 7, antes da demonstração que gera um arquivo desses.
 
 Demonstração, 7 min. O glossário em HTML, aberto no navegador ali mesmo. Peça um ajuste de coluna sem refazer, para mostrar que o arquivo é editado e não recriado.
 
@@ -64,7 +72,9 @@ Resultado esperado, se a cota acabar: a rodada 1 é a prioridade. Quem não cons
 
 ## Ciclo 4.3 — Estender o agente: um MCP e as APIs públicas
 
-Teoria, 12 min. As três formas de estender. O que é uma API e o que um MCP faz com ela.
+Conceito, 12 min. O que é uma API, slide 18, com a analogia do balcão dos fundos. Depois o JSON, slide 19, lendo em voz alta o par nome e valor do exemplo de São Luís. Só então as três formas de estender, slide 20, e o que é um MCP, slide 21, com a analogia do funcionário novo que ganha acesso a mais um sistema.
+
+Teoria, 5 min. A síntese do slide 22, que junta os dois: sem API embaixo, não há MCP em cima. É a frase que o aluno leva para a reunião com fornecedor.
 
 Demonstração da instalação, 12 min. Cole o bloco de configuração na projeção, reinicie e confirme que as quinze ferramentas apareceram. Faça a primeira consulta: o CNPJ da UFMA.
 
