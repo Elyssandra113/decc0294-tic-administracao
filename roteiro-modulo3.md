@@ -64,7 +64,7 @@ Resultado esperado, caso a cota acabe: o aluno registra os casos que conseguiu, 
 
 Teoria, 22 min. Papel, contexto, instrução e formato. O prompt fraco e o forte lado a lado. Os quatro erros que estragam um prompt bom.
 
-Demonstração, 13 min. A turma dita um prompt fraco e o professor reescreve na projeção, preenchendo a estrutura do slide. Rode as duas versões e compare.
+Demonstração, 13 min. O slide 26 já traz um prompt fraco e sua versão forte, prontos, sobre um edital de compras. Projete os dois, rode as duas versões ao vivo e compare o que muda na resposta com a turma.
 
 Prática, 15 min. Cada aluno faz o próprio par.
 
@@ -76,7 +76,7 @@ Este é o ciclo mais produtivo do módulo e o que mais rende em qualidade de tra
 
 Teoria, 18 min. Exemplos, passo a passo, do simples ao complexo. Verificação em cadeia e consistência. Depois, dois slides de fecho: escolher a técnica pelo erro que ela evita, e a pergunta entre trocar de técnica ou trocar de modelo.
 
-Demonstração, 6 min. A mesma classificação com e sem exemplos.
+Demonstração, 6 min. O slide 34 já traz as duas instruções prontas, sem exemplos e com exemplos, cada uma gravando num arquivo de nome diferente (classificacao-sem-exemplos.csv e classificacao-com-exemplos.csv). Rode as duas e abra os arquivos lado a lado.
 
 Prática, 16 min. Três técnicas registradas no caderno de prompts, e uma delas repetida em outro modelo por quem tiver acesso.
 
