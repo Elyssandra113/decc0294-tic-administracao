@@ -16,6 +16,8 @@ Cada módulo tem três arquivos:
 
 Além disso, `programa-decc0294-2026-2.docx` traz o programa oficial e `planejamento-disciplina-v2.md` registra as decisões de desenho da disciplina.
 
+A tabela da seção Os módulos, mais abaixo, reúne o link de slides e o link de script de cada um dos quinze módulos, na ordem dos encontros.
+
 ## Os slides
 
 Arquivo HTML único, sem dependência de rede, de fonte instalada ou de PowerPoint. Setas do teclado ou clique avançam. A barra de navegação aparece ao mover o mouse e some sozinha.
@@ -48,23 +50,27 @@ Cada script recusa entrega incompleta e diz, item por item, o que falta. Executa
 
 ## Os módulos
 
-| Mód. | Enc. | Título | Entrega |
-|---|---|---|---|
-| 1 | 2 | Transformação digital e o trabalho do administrador | |
-| 2 | 3 | Ambiente de trabalho digital | A1 |
-| 3 | 4 | IA, modelos de linguagem e engenharia de prompt | |
-| 4 | 5 | Do prompt ao artefato | |
-| 5 | 6 | Dados na Administração | A2 |
-| 6 | 7 | Análise exploratória de dados | |
-| 7 | 8 | Dados estruturados e consulta | |
-| 8 | 9 | Visualização de dados e painéis | B1 |
-| 9 | 10 | Automação de documentos e processos | |
-| 10 | 11 | Pesquisa, documentos longos e análise qualitativa | B2 |
-| 11 | 12 | Aprendizado de máquina e analytics para a decisão | |
-| 12 | 13 | Governança de dados, LGPD e cibersegurança | |
-| 13 | 14 | Decisão apoiada por IA: contratos, editais e devolutivas | C1 |
-| 14 | 15 | Produto digital e gestão ágil | |
-| 15 | 16 | Projeto integrador | C2 |
+A coluna Slides abre o deck no navegador. A coluna Script leva ao arquivo Python da atividade. O roteiro de cada módulo, de uso do professor, está listado no índice do material.
+
+| Mód. | Enc. | Título | Slides | Script | Entrega |
+|---|---|---|---|---|---|
+| 1 | 2 | Transformação digital e o trabalho do administrador | [Slides](modulo1-transformacao-digital.html) | [Script](atividade_modulo1.py) | |
+| 2 | 3 | Ambiente de trabalho digital | [Slides](modulo2-ambiente-de-trabalho-digital.html) | [Script](atividade_modulo2.py) | A1 |
+| 3 | 4 | IA, modelos de linguagem e engenharia de prompt | [Slides](modulo3-ia-e-engenharia-de-prompt.html) | [Script](atividade_modulo3.py) | |
+| 4 | 5 | Do prompt ao artefato | [Slides](modulo4-do-prompt-ao-artefato.html) | [Script](atividade_modulo4.py) | |
+| 5 | 6 | Dados na Administração | [Slides](modulo5-dados-na-administracao.html) | [Script](atividade_modulo5.py) | A2 |
+| 6 | 7 | Análise exploratória de dados | [Slides](modulo6-analise-exploratoria.html) | [Script](atividade_modulo6.py) | |
+| 7 | 8 | Dados estruturados e consulta | [Slides](modulo7-dados-estruturados-e-consulta.html) | [Script](atividade_modulo7.py) | |
+| 8 | 9 | Visualização de dados e painéis | [Slides](modulo8-visualizacao-e-paineis.html) | [Script](atividade_modulo8.py) | B1 |
+| 9 | 10 | Automação de documentos e processos | [Slides](modulo9-automacao.html) | [Script](atividade_modulo9.py) | |
+| 10 | 11 | Pesquisa, documentos longos e análise qualitativa | [Slides](modulo10-pesquisa-e-analise-qualitativa.html) | [Script](atividade_modulo10.py) | B2 |
+| 11 | 12 | Aprendizado de máquina e analytics para a decisão | [Slides](modulo11-aprendizado-de-maquina.html) | [Script](atividade_modulo11.py) | |
+| 12 | 13 | Governança de dados, LGPD e cibersegurança | [Slides](modulo12-governanca-lgpd-ciberseguranca.html) | [Script](atividade_modulo12.py) | |
+| 13 | 14 | Decisão apoiada por IA: contratos, editais e devolutivas | [Slides](modulo13-decisao-apoiada-por-ia.html) | [Script](atividade_modulo13.py) | C1 |
+| 14 | 15 | Produto digital e gestão ágil | [Slides](modulo14-produto-digital-e-agil.html) | [Script](atividade_modulo14.py) | |
+| 15 | 16 | Projeto integrador | [Slides](modulo15-projeto-integrador.html) | [Script](atividade_modulo15.py) | C2 |
+
+No GitHub, o clique em Slides abre a página do arquivo no repositório. Para ver o deck funcionando, baixe o `.html` (botão "Raw" na página do arquivo, depois "Salvar como") ou abra `index.html`, que já carrega o deck direto no navegador.
 
 ## Avaliação
 
