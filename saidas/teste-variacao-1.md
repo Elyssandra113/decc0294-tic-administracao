@@ -1,0 +1,1 @@
+A Court of Thorns and Roses (ACOTAR) é uma série de fantasia româtica iniciada em 2015. A saga acompanha Feyre Archeron, uma caçadora humana que é levada para o mundo feérico. A trama mistura política, guerra e romance entre humanos e fadas. A série possui cinco livros principais e é um dos maiores fenômenos editoriais da última década. Autora: Sarah J. Maas.
