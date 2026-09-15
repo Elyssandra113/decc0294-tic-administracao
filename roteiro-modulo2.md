@@ -18,6 +18,8 @@ O tempo medido nesse teste decide se o ciclo 2.4 cabe nos 65 minutos previstos. 
 
 Providencie também: os endereços de download escritos na turma virtual, um monitor circulando pela sala e a instrução de como adicionar o professor como colaborador no repositório.
 
+Os tempos por etapa de cada ciclo e os avisos de fechamento já estão nos slides. Este roteiro é material de preparação, não algo a consultar durante a aula.
+
 ## Material
 
 Deck `modulo2-ambiente-de-trabalho-digital.html`, este roteiro e o arquivo `atividade_modulo2.py`, publicado na turma virtual antes da aula.
@@ -31,12 +33,12 @@ Os slides de conceito são para ler em voz alta e discutir, não para passar rá
 | Bloco | Duração | Slides |
 |---|---|---|
 | Abertura, visão geral e combinado | 10 min | 1 a 3 |
-| Ciclo 2.1 | 45 min | 4 a 12 |
-| Ciclo 2.2 | 45 min | 13 a 21 |
+| Ciclo 2.1 | 52 min | 4 a 12 |
+| Ciclo 2.2 | 50 min | 13 a 21 |
 | Intervalo | 15 min | |
-| Ciclo 2.3 | 65 min | 22 a 31 |
+| Ciclo 2.3 | 67 min | 22 a 31 |
 | Intervalo | 10 min | |
-| Ciclo 2.4 | 65 min | 32 a 40 |
+| Ciclo 2.4 | 70 min | 32 a 40 |
 | Fechamento e vocabulário | 15 min | 41 a 46 |
 
 O slide 3 é o combinado de abertura: toda palavra técnica é definida antes de ser usada, ninguém precisa saber programar e a dúvida óbvia é a mais útil. Leia os quatro pontos em voz alta. Numa turma que nunca viu o tema, esse minuto reduz a quantidade de gente que fica calada com dúvida.

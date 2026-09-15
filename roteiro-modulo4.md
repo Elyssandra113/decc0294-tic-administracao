@@ -26,10 +26,10 @@ Confira antes da aula quais alunos ainda não têm o AGENTS.md preenchido do enc
 | Bloco | Duração | Slides |
 |---|---|---|
 | Abertura e visão geral | 10 min | 1 a 2 |
-| Ciclo 4.1 | 45 min | 3 a 10 |
+| Ciclo 4.1 | 48 min | 3 a 10 |
 | Ciclo 4.2 | 45 min | 11 a 16 |
 | Intervalo | 15 min | |
-| Ciclo 4.3 | 70 min | 17 a 28 |
+| Ciclo 4.3 | 75 min | 17 a 28 |
 | Intervalo | 10 min | |
 | Ciclo 4.4 | 40 min | 29 a 34 |
 | Fechamento e vocabulário | 15 min | 35 a 40 |
