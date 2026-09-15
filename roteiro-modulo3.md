@@ -13,13 +13,15 @@ Antes do encontro, confira quem ficou pendente na entrega A1 do encontro 3. Alun
 
 Teste o roteiro na semana da aula, não no início do semestre: o provedor gratuito muda de modelo e de limite sem aviso.
 
+Os tempos por etapa de cada ciclo e os avisos de fechamento já estão nos slides. Este roteiro é material de preparação, não algo a consultar durante a aula.
+
 ## Distribuição do tempo
 
 | Bloco | Duração | Slides |
 |---|---|---|
 | Abertura e visão geral | 10 min | 1 a 2 |
 | Ciclo 3.1 | 50 min | 3 a 12 |
-| Ciclo 3.2 | 50 min | 13 a 20 |
+| Ciclo 3.2 | 55 min | 13 a 20 |
 | Intervalo | 15 min | |
 | Ciclo 3.3 | 55 min | 21 a 28 |
 | Intervalo | 10 min | |
@@ -66,7 +68,7 @@ Teoria, 22 min. Papel, contexto, instrução e formato. O prompt fraco e o forte
 
 Demonstração, 13 min. O slide 26 já traz um prompt fraco e sua versão forte, prontos, sobre um edital de compras. Projete os dois, rode as duas versões ao vivo e compare o que muda na resposta com a turma.
 
-Prática, 15 min. Cada aluno faz o próprio par.
+Prática, 15 min. A tarefa agora é fixa para toda a turma, um parecer sobre terceirizar a limpeza de um prédio público, para o professor poder comparar os pares entre si. Cada aluno inventa o órgão e o papel que dão contexto, e escreve o próprio par de prompts.
 
 Entrega, 5 min. `prompts/modulo3-par-de-prompts.md`.
 
@@ -76,9 +78,9 @@ Este é o ciclo mais produtivo do módulo e o que mais rende em qualidade de tra
 
 Teoria, 18 min. Exemplos, passo a passo, do simples ao complexo. Verificação em cadeia e consistência. Depois, dois slides de fecho: escolher a técnica pelo erro que ela evita, e a pergunta entre trocar de técnica ou trocar de modelo.
 
-Demonstração, 6 min. O slide 34 já traz as duas instruções prontas, sem exemplos e com exemplos, cada uma gravando num arquivo de nome diferente (classificacao-sem-exemplos.csv e classificacao-com-exemplos.csv). Rode as duas e abra os arquivos lado a lado.
+Demonstração, 6 min. O slide 34 já traz as duas instruções prontas, sem exemplos e com exemplos, cada uma gravando num arquivo de nome diferente (classificacao-sem-exemplos.csv e classificacao-com-exemplos.csv). As três demandas a classificar estão escritas no próprio prompt, não dependem de nenhum arquivo de dados. Rode as duas e abra os arquivos lado a lado.
 
-Prática, 16 min. Três técnicas registradas no caderno de prompts, e uma delas repetida em outro modelo por quem tiver acesso.
+Prática, 16 min. Três técnicas, um arquivo por técnica em prompts/, e uma delas repetida em outro modelo por quem tiver acesso.
 
 Entrega, 5 min. Três arquivos em `prompts/`.
 
